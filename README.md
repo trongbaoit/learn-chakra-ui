@@ -1,1 +1,1 @@
-- Lern Chakra UI Project
+- Learn Chakra UI Project
