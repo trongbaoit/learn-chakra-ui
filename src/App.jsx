@@ -10,6 +10,7 @@ import RootLayout from './layouts/RootLayout'
 import Create from './pages/Create'
 import Dashboard from './pages/Dashboard'
 import Profile from './pages/Profile'
+import Document from './pages/Document'
 
 // router and routes
 const router = createBrowserRouter(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route index element={<Dashboard />} />
       <Route path="create" element={<Create />} />
       <Route path="profile" element={<Profile />} />
+      <Route path="document" element={<Document />} />
     </Route>
   )
 )
